@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette:400,700">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/todo.css">
+  <link rel="icon" href="./images/icon.png" title="GitHub">
+</head>
+<body>
+
+<!-- Masthead -->
+<header class="masthead">
+
+ <div class="logo">
+
+   <h1><i class="fab fa-trello logo-icon" aria-hidden="true"></i>e-Task</h1>
+
+ </div>
+
+</header>
+<!-- End of masthead -->
+
+
+<!-- Board info bar -->
+<br>
+<section class="board-info-bar">
+
+ <div class="board-controls">
+	<div class="board-search">
+			<input type="search" class="board-search-input" placeholder="New List" id="list-name">
+		</div>
+		<button onClick="addList()">
+			<i class="fas fa-plus"></i>
+		</button>
+ </div>
+
+</section>
+<!-- End of board info bar -->
+<br>
+<!-- Lists container -->
+<section class="lists-container" id="lists-section">
+<div id="div-list">
+ <div class="list">
+
+   <h3 class="list-title">Tasks to Do</h3>
+
+   <ul class="list-items" id="tasks">
+   </ul>
+   <span onclick="myFunction()" class="def">+ Add Another Card</span>
+
+   <div id="myDIV" class="hide">
+      <input type="text" id="myInput" placeholder="Item name...">
+      <span onclick="newElement()" class="addBtn">Add Card</span>
+   </div>  
+
+
+   <!-- <button id="toggleList" class="add-card-btn btn">+ Add another card</button>
+   <div class="textbox" hidden>
+   <input type="text" class="addItemInput" placeholder="Enter a title for this card">
+   <button class="addItemButton">Add item</button>
+   <button class="removeItemButton">Remove last item</button> -->
+
+
+
+   <!-- <button class="add-card-btn btn" onClick="addCard()">+ Add another card</button> -->
+ </div>
+
+</div>
+
+</section>
+<!-- End of lists container -->
+
+<script src="./script/script.js"></script>
+<script src="./script/app.js"></script>
+</body>
+</html>

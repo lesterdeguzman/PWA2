@@ -2,12 +2,13 @@
 
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="manifest" href="./manifest.json">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette:400,700">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-<link rel="stylesheet" href="./style/style.css">
-<link rel="icon" href="./images/icon.png" title="GitHub">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette:400,700">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/todo.css">
+  <link rel="icon" href="./images/icon.png" title="AppLogo">
 </head>
 <body>
 
@@ -50,16 +51,12 @@
    <ul class="list-items" id="tasks">
    </ul>
 
-   <button id="toggleList" class="add-card-btn btn">+ Add another card</button>
-   <div class="textbox" hidden>
-   <input type="text" class="addItemInput" placeholder="Enter a title for this card">
-   <button class="addItemButton">Add item</button>
-   <button class="removeItemButton">Remove last item</button>
+   <span onclick="myFunction()" class="def">+ Add Another Card</span>
 
-
-
-   <!-- <button class="add-card-btn btn" onClick="addCard()">+ Add another card</button> -->
-  </div>
+   <div id="myDIV" class="hide">
+      <input type="text" id="myInput" placeholder="Item name...">
+      <span onclick="newElement()" class="addBtn">Add Card</span>
+   </div>  
 
  </div>
 </div>
