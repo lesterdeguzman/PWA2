@@ -10,7 +10,8 @@ self.addEventListener('install', function(e) {
 				'./script/app.js',
                 './images/icon.png',
                 './images/404.png',
-                './offline.html'
+                './images/icon-192.png',
+                './images/icon-512.png',
             ]).then(function() {
                 self.skipWaiting();
             });
