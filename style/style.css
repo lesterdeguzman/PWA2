@@ -334,11 +334,11 @@ Remove or comment-out the code block below to see how the browser will fall-back
         grid-row-gap: 0.8rem;
     }
 
-    .masthead {
+    /* .masthead {
         display: grid;
         grid-template-columns: auto 1fr auto;
         grid-column-gap: 2rem;
-    }
+    } */
 
     .boards-menu {
         display: grid;
