@@ -4,14 +4,19 @@
   "short_name": "e-task",
   "icons": [
     {
-      "src": "./images/icon.png",
+      "src": "/images/icon-192.png",
       "type": "image/png",
-      "sizes": "144x144"
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "theme_color": "#1a6bd5",
   "background_color": "#000000",
   "display": "standalone",
-  // "scope": "/e-task/",
+  "scope": "/e-task/",
   "start_url": "/"
 }
