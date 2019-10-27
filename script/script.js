@@ -20,7 +20,6 @@ function addList() {
   div.appendChild(inDiv);
 }
 
-
 function myFunction() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "block") {
